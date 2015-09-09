@@ -1,7 +1,7 @@
 Meteor.startup ( ->
   Meteor.Mailgun.config(
-    username: ''
-    password: ''
+    username: 'maurop123@gmai.com'
+    password: 'Shoez,.117'
   )
 )
 

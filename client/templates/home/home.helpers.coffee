@@ -1,57 +1,73 @@
 Template.home.helpers(
   services: () -> return [
-    name: 'Background1'
-    shortName: 'background1'
+    name: 'Websites'
+    shortName: 'websites'
     imgs: [
-      alt: 'bg1'
-      img: 'background1.jpg'
+      alt: 'the lab miami website'
+      img: 'lab_website.png'
      ,
-      alt: 'bg2'
-      img: 'background2.jpg'
+      alt: 'lead miami website'
+      img: 'lead_website.png'
      ,
-      alt: 'bg3'
-      img: 'background3.jpg'
+      alt: 'tech miami website'
+      img: 'techmiami_website.png'
     ]
-    mainImg: 'background1.jpg'
+    mainImg: 'lab_website.png'
     copy: [
-      'Background 1 is nice',
-      'Background 2 is better'
     ]
    ,
-    name: 'Background2'
-    shortName: 'background2'
+    name: 'Data Science'
+    shortName: 'data-science'
     imgs: [
-      alt: 'bg1'
-      img: 'background1.jpg'
-     ,
-      alt: 'bg2'
-      img: 'background2.jpg'
-     ,
-      alt: 'bg3'
-      img: 'background3.jpg'
+      alt: 'miami graph'
+      img: 'sunburst_hover.png'
     ]
-    mainImg: 'background2.jpg'
+    mainImg: 'sunburst_hover.png'
     copy: [
-      'Background 1 is nice',
-      'Background 2 is better'
+      'Data is everywhere, and it is up to us to capture and understand it.',
+      'We offer consulting and development for all stages of the data pipeline.'
     ]
    ,
-    name: 'Background3'
-    shortName: 'background3'
+    name: 'Automation'
+    shortName: 'automation'
     imgs: [
-      alt: 'bg1'
-      img: 'background1.jpg'
-     ,
-      alt: 'bg2'
-      img: 'background2.jpg'
-     ,
       alt: 'bg3'
       img: 'background3.jpg'
     ]
     mainImg: 'background3.jpg'
     copy: [
-      'Background 1 is nice',
-      'Background 2 is better'
     ]
+   ,
+    name: 'Blogs'
+    shortName: 'blogs'
+    imgs: [
+      alt: '1000 T cups blog'
+      img: '1000tcups_blog.png'
+     ,
+      alt: 'LEAD Miami blog'
+      img: 'lead_blog.png'
+    ]
+    mainImg: 'lead_blog.png'
+    copy: [
+    ]
+   ,
+    name: 'Consulting'
+    shortName: 'consulting'
+    imgs: [
+      alt: 'Consulting'
+      img: 'consulting.jpg'
+    ]
+    mainImg: 'consulting.jpg'
+    copy: [
+    ]
+   ,
+    name: 'Apps (Web and Mobile)'
+    shortName: 'apps'
+    imgs: [
+      alt: 'jupit.co'
+      img: 'jupit.png'
+    ]
+    mainImg: 'jupit.png'
+    copy: []
   ]
 )
