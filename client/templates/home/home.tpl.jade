@@ -37,9 +37,9 @@
     #masonry-grid.row
       each services
         .col.s12.m6.l4
-          .card
-            .card-image
-              a.modal-trigger.waves-effect.waves-light(href="##{this.shortName}")
+          .card.medium
+            .card-image.valign-wrapper
+              a.modal-trigger.waves-effect.valign.waves-light(href="##{this.shortName}")
                 img(src="#{this.mainImg}")
             .card-content.center
               a.modal-trigger(href="##{this.shortName}")
@@ -47,12 +47,12 @@
 
 
 // Call to Action
- .parallax-container
+.parallax-container
   .parallax
     img.responsive-img(src="background2.jpg" alt="background2")
 
 
- .section.container.minheight.valign-wrapper
+.section.container.minheight.valign-wrapper
   .row.center.valign
     .col.s12
       p.flow-text.
@@ -99,14 +99,11 @@ footer.page-footer
   .container
     .row(style="margin-bottom:0")
       .col.l6.s12
-        h5.white-text Find us online
+        h5.white-text Follow us
 
       nav
        .col.l3.s12.offset-l3.nav-wrapper
         ul
-          li
-            a.white-text(href="mailto:maurop123@gmail.com?Subject=MptySquare%20contact")
-              i.fa.fa-envelope.fa-2x
           li
             a.white-text(href="http://twitter.com/mptysquare")
               i.fa.fa-twitter.fa-2x

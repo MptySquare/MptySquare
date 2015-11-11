@@ -8,7 +8,9 @@ Template.home.onRendered ->
 
   $('.slider').slider()
 
+  ###
   $(window).load ->
     $container = $('#masonry-grid')
     $container.masonry ->
       @itemSelector '.col'
+  ###

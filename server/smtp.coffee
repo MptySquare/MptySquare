@@ -1,12 +1,14 @@
 Meteor.startup ( ->
   Meteor.Mailgun.config(
-    username: 'maurop123@gmai.com'
-    password: 'Shoez,.117'
+    username: 'postmaster@mptysquare.com'
+    password: '41ffcd0bf5d282d3f0ff516e138db78b'
   )
 )
 
 Meteor.methods(
   sendEmail: (field) ->
+    console.log('sending email')
+
     check([field.to, field.from, field.subject, field.text, field.html], [String])
 
     this.unblock()

@@ -1,4 +1,4 @@
-Template.home.helpers(
+Template.portfolioList.helpers(
   services: () -> return [
     name: 'Websites'
     shortName: 'websites'
@@ -27,15 +27,6 @@ Template.home.helpers(
       'Data is everywhere, and it is up to us to capture and understand it.',
       'We offer consulting and development for all stages of the data pipeline.'
     ]
-   ,
-    name: 'Web Apps'
-    shortName: 'apps'
-    imgs: [
-      alt: 'jupit.co'
-      img: 'jupit.png'
-    ]
-    mainImg: 'jupit.png'
-    copy: []
    ,
     name: 'Automation'
     shortName: 'automation'
@@ -69,5 +60,14 @@ Template.home.helpers(
     mainImg: 'consulting.jpg'
     copy: [
     ]
+   ,
+    name: 'Apps (Web and Mobile)'
+    shortName: 'apps'
+    imgs: [
+      alt: 'jupit.co'
+      img: 'jupit.png'
+    ]
+    mainImg: 'jupit.png'
+    copy: []
   ]
 )
